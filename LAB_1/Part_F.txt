@@ -1,0 +1,25 @@
+
+Q1: Which class is the parent class?
+A1: Person
+
+Q2: Which class is the child class?
+A2: OOPStudent (named Student in the lab, renamed to avoid conflict)
+
+
+Q3: Which keyword creates the inheritance relationship?
+A3: extends
+
+
+Q4: The introduce() method was written inside which class?
+A4: Person (the parent class)
+
+
+Q5: Can the $student3 object call introduce()?
+A5: Yes
+
+
+Q6: Why can $student3 use introduce() even though it is not written inside the OOPStudent class?
+
+A6: Because OOPStudent inherits from Person. Inheritance gives the child class access to
+    
+    all public and protected methods of the parent class.
